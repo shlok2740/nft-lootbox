@@ -1,27 +1,60 @@
-# Next.js + Tailwind CSS Example
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+# NFT LootBox
 
-## Preview
+![nft-lootbox](https://socialify.git.ci/shlok2740/nft-lootbox/image?description=1&font=Bitter&language=1&name=1&owner=1&theme=Dark)
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+A NFT based Lootbox using ThirdWeb SDK v2, Axios, Dotenv, Ethers.js, Next.js, TypeScript, TailwindCSS and Vercel
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Getting Started
 
-## Deploy your own
+First, run the development server:
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+npm run dev
+or
+yarn dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Open http://localhost:3000 with your browser to see the result.
+
+You can start editing the page by modifying pages/index.js. The page auto-updates as you edit the file.
+
+API routes can be accessed on http://localhost:3000/api/hello. This endpoint can be edited in pages/api/hello.js.
+
+The pages/api directory is mapped to /api/*. Files in this directory are treated as API routes instead of React pages.
+
+## Installation
+
+Install nft-lootbox with npm
+
+```bash
+  npm install 
+  npm run dev
+```
+
+## Demo
+
+https://nft-lootbox-omega.vercel.app/
+
+
+## Tech Stack
+
+**Client:** Next.js, TailwindCSS
+
+**Server:** Node, Axios, ThirdWeb SDK
+
+**Blockchain:** , Ethers.js
+
+
+## Deployment
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## Support
+
+For support, email shlokkumar2303@gmail.com.
+
